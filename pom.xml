@@ -181,7 +181,7 @@
 					<archive>
 						<manifest>
 							<!-- <addClasspath>true</addClasspath> -->
-							<mainClass>it.sandrea.tarocchi.springJmsConsumer.ConsumerApp</mainClass>
+							<mainClass>it.andrea.tarocchi.springJmsConsumer.ConsumerApp</mainClass>
 						</manifest>
 						<manifestEntries>
 							<Class-Path>.</Class-Path>

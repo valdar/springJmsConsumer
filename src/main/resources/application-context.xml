@@ -38,7 +38,7 @@
 		<property name="sessionTransacted" value="true" />
 	</bean>
 	
-	<bean id="simpleMessageListener" class="it.sandrea.tarocchi.springJmsConsumer.Consumer">
+	<bean id="simpleMessageListener" class="it.andrea.tarocchi.springJmsConsumer.Consumer">
 		<property name="jsmT" ref="jmsTemplate"/>
 		<property name="ds" ref="dataSource"/>
 	</bean>

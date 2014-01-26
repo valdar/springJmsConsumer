@@ -1,11 +1,11 @@
-package it.sandrea.tarocchi.springJmsConsumer.exceptions;
+package it.andrea.tarocchi.springJmsConsumer.exceptions;
 
-public class UnsupportedMessageTypeException extends Exception {
+public class MaxConsumingMessagesPerTimeExceded extends Exception {
 	private static final long serialVersionUID = 1L;
 
 	public String message;
 	
-	public UnsupportedMessageTypeException(String message){
+	public MaxConsumingMessagesPerTimeExceded(String message){
 		this.message=message;
 	}
 	

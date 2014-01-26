@@ -1,4 +1,4 @@
-package it.sandrea.tarocchi.springJmsConsumer;
+package it.andrea.tarocchi.springJmsConsumer;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

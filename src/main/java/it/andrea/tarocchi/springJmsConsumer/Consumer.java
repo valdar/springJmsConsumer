@@ -1,6 +1,6 @@
-package it.sandrea.tarocchi.springJmsConsumer;
+package it.andrea.tarocchi.springJmsConsumer;
 
-import it.sandrea.tarocchi.springJmsConsumer.exceptions.MaxConsumingMessagesPerTimeExceded;
+import it.andrea.tarocchi.springJmsConsumer.exceptions.MaxConsumingMessagesPerTimeExceded;
 
 import java.sql.Types;
 import java.util.Calendar;
